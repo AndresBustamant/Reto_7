@@ -46,7 +46,7 @@ graph TD;
    H -->J;
    J-->K(si);
    J-->L(no);
-   L-->M(pirnt listas para caso respectivo);
+   L-->M(print listas para caso respectivo);
    K-->N(fin);
 ```
 programa: patra este programa desarrolle dos partes la primera es evaluar si el numero es par o si es impar, para posteriormente desarrollar dos listas que seran compartidas a el usuario al final mostrando los pares e impares presentes hasta 1000.
