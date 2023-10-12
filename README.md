@@ -18,7 +18,7 @@ graph TD;
    E -->G(fin);
    F -->H(n +=1);
 ```
-programa 
+programa: para este punto desarrolle un ciclo while que tiene en cuenta el conunto de los numeros de 1-100, el cual devuelve los cuadrados de el conjuto de numeros a evaluar (1-100)
 
 ```pseudocode
 i =0
@@ -49,7 +49,7 @@ graph TD;
    L-->M(pirnt listas para caso respectivo);
    K-->N(fin);
 ```
-programa 
+programa: patra este programa desarrolle dos partes la primera es evaluar si el numero es par o si es impar, para posteriormente desarrollar dos listas que seran compartidas a el usuario al final mostrando los pares e impares presentes hasta 1000.
 
 ```pseudocode
 a=1
@@ -95,7 +95,7 @@ flowchart TD;
    K-->N(par -=2);
    N-->I;
 ```
-programa
+programa: para este punto dividi el desarrollo en dos partes la primera corresponde a identificar si el n es par o impar, en caso de ser impar se transforma en par dada una instruccion; esto con el fin de posteriormente crear un ciclo while el cual mostrara los pares de forma decendente al ir restando 2 a cada casp evaluado
 
 ```pseudocode
 n:int
@@ -114,7 +114,7 @@ while par >=2:
 ```
 4.En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18.9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
 
-programa
+programa: para el desarrollo del programa primero tome en cuenta la relacion de aumento porcentual, esto con el fin de poder crear un ciclo que va a evluar la tasa de aumento indivudual hasta tener un caso de parada, teniendo en cuenta los factores solicitados numero de poblacion y año en que se cumple la condicion.
 
 ```pseudocode
 a=25000000
@@ -135,7 +135,7 @@ while (b<a) and años:
 ```
 5.Imprimir el factorial de un número natural n dado.
 
-programa
+programa: la solucion de este punto recae en un ciclo while, el cual va a multiplicar cierta cantidad de numeros hasta igular el numero dado por el usuario 
 
 ```pseudocode
 n= int(input("ingresa el numero del cual quieres el factorial: "))
@@ -150,7 +150,7 @@ print("el cuadrado de " +str(n)+ " es " +str(factorial))
 ```
 6.Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
 
-programa
+programa: el desarrollo de este programa se dio a partir de la generacion por parte de la funcion random.randint de un dato aleatorio dado un rango de accion, posteriormente se entra a evaluar el hecho de si el numero es mayor, menor o igual para asi dar con una respuesta o con el calculo de un nuevo numero aleatorio.
 
 ```pseudocode
 import random
@@ -176,7 +176,7 @@ Adivinar()
 ```
 7.Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
 
-programa
+programa: para este punto tome en cuenta el criterio que vuelve un numero divisor de otro, esto con el fin de implementarlo en un ciclo while en el cual dado cuero numero evaluara de manera individual cad numero para determinar si es un divisor o si no.
 
 ```pseudocode
 n= int(input("ingresa un numero del 2 al 50: "))
@@ -189,7 +189,7 @@ while i<=n:
 ```
 8.Implementar el algoritmo que muestre los números primos del 1 al 100. Nota: use funciones
 
-programa
+programa: por ultimo para este punto desarrolle un programa basado en que un numero primo solo es divisible entre si mismo, dada esta condicion se puede generar una evaluacion general hacia cierto rango de numeros, dando como resultado los numero primos hasta el 100
 
 ```pseudocode
 def es_primo(num):
@@ -204,4 +204,4 @@ for num in range(1,101):
   if es_primo(num):
     print (num)
 ```
-soluciom
+gracias por leer hasta aqui 
