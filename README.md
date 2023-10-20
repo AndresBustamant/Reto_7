@@ -146,7 +146,7 @@ while i<=n:
     factorial *= i
     i +=1
    
-print("el cuadrado de " +str(n)+ " es " +str(factorial))
+print("el factorias de " +str(n)+ " es " +str(factorial))
 ```
 6.Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
 
